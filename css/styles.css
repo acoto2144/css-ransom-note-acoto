@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&family=Playwrite+NL+Guides&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&family=Playwrite+NL+Guides&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&family=Playwrite+NL+Guides&family=Sarina&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&family=Metamorphous&family=Playwrite+NL+Guides&family=Sarina&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&family=Bungee&family=Gamja+Flower&family=Metamorphous&family=Playwrite+NL+Guides&family=Sarina&family=Tilt+Prism&display=swap");
 
 * {
   padding: 0;
@@ -59,7 +66,7 @@ body {
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
 .whyHLetter {
@@ -68,7 +75,7 @@ body {
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Ceviche One", sans-serif;
 }
 
 .whyYLetter {
@@ -77,228 +84,722 @@ body {
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 40px;
+  font-weight: bolder;
+  color: purple;
+  text-decoration: brown wavy underline;
+  text-transform: uppercase;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 .didILetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: white wavy underline;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .didDTwoLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: violet;
+  text-decoration: blue wavy underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline overline #ff3028;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .theHLetter {
+  font-size: 50px;
+  font-weight: lighter;
+  color: green;
+  text-decoration: underline pink;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .theELetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: orange;
+  text-decoration: underline overline orange;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: underline overline dotted;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .frontendRLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: yellow;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .frontendOLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: orange;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 
 .frontendNLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: wavy underline;
+  text-transform: lowercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 
 .frontendTLetter {
+  font-size: 50px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: underline dotted;
+  text-transform: uppercase;
+  font-family: "Bungee", sans-serif;
 }
 
 .frontendELetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Playwrite NL Guides", cursive;
 }
 
 .frontendNTwoLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: peru;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 
 .frontendDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  color: purple;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Sarina", cursive;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Sarina", cursive;
 }
 .developerELetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: pink;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Sarina", cursive;
 }
 .developerVLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: violet;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Sarina", cursive;
 }
 .developerETwoLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: blue;
+  text-decoration: dotted underline;
+  text-transform: lowercase;
+  font-family: "Metamorphous", serif;
 }
 .developerLLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: lawngreen;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 .developerOLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: olive;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Grid Double", system-ui;
 }
 .developerPLetter {
+  font-size: 40px;
+  font-weight: bolder;
+  color: plum;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Metamorphous", serif;
 }
 .developerEThreeLetter {
+  font-size: 20px;
+  font-weight: bolder;
+  color: indigo;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 .developerRLetter {
+  font-size: 70px;
+  font-weight: bolder;
+  color: yellow;
+  text-decoration: underline overline black;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 70px;
+  font-weight: bolder;
+  color: purple;
+  text-decoration: underline overline black;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 .takeALetter {
+  font-size: 70px;
+  font-weight: bolder;
+  color: brown;
+  text-decoration: underline overline black;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 .takeKLetter {
+  font-size: 70px;
+  font-weight: bolder;
+  color: yellow;
+  text-decoration: underline overline black;
+  text-transform: uppercase;
+  font-family: "Metamorphous", serif;
 }
 .takeELetter {
+  font-size: 20px;
+  font-weight: bolder;
+  color: crimson;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Metamorphous", serif;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: underline overline dotted red;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .upPLetter {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: greenyellow;
+  text-decoration: underline darkgreen;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .gardeningALetter {
+  font-size: 20px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .gardeningRLetter {
+  font-size: 20px;
+  font-weight: bold;
+  color: chocolate;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .gardeningDLetter {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .gardeningELetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: underline blue;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .gardeningNLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: underline navy;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .gardeningILetter {
+  font-size: 70px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: dotted underline pink;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .gardeningNTwoLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: underline navy;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .gardeningGTwoLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkcyan;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .becauseELetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: hotpink;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .becauseCLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .becauseALetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: cadetblue;
+  text-decoration: underline dotted;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .becauseULetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: yellow;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .becauseSLetter {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .becauseETwoLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: indianred;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: darkcyan;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .theyHLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: coral;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .theyELetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: firebrick;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 .theyYLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: hotpink;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Tilt Prism", sans-serif;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: wheat;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .wantedALetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: aqua;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .wantedNLetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: navy;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .wantedTLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: tomato;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
+
 .wantedELetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: teal;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .wantedDLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: darkred;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: teal;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .toOLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: orange;
+  text-decoration: wavy underline;
+  text-transform: lowercase;
+  font-family: family Jazz LET, fantasy;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 90px;
+  font-weight: bolder;
+  color: indigo;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improveMLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: magenta;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improvePLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: palegreen;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improveRLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: royalblue;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improveOLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: orange;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improveVLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: violet;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 .improveELetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Bitcount Prop Double Ink", system-ui;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: teal;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .theirHLetter {
+  font-size: 30px;
+  font-weight: lighter;
+  color: hotpink;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .theirELetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: plum;
+  text-decoration: wavy underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .theirILetter {
+  font-size: 50px;
+  font-weight: lighter;
+  color: indianred;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .theirRLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .rootOLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: olivedrab;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .rootOTwoLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: orangered;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .rootTLetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+font-size: 20px;
+  font-weight: lighter;
+  color: snow;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
+
 .skillsKLetter {
+  font-size: 100px;
+  font-weight: bolder;
+  color: red;
+  text-decoration: dotted underline;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
 }
 .skillsILetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .skillsLLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: black;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .skillsLTwoLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: lawngreen;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .skillsSTwoLetter {
+  font-size: 90px;
+  font-weight: lighter;
+  color: seagreen;
+  text-decoration: dotted underline;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 60px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: overline underline;
+  text-transform: lowercase;
+  font-family: "Gamja Flower", sans-serif;
 }
 .exclamation-mark {
+  font-size: 90px;
+  font-weight: lighter;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: family Jazz LET, fantasy;
 }
 .question-mark {
+  font-size: 90px;
+  font-weight: bolder;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Piazolla", sans-serif;
 }
