@@ -63,8 +63,8 @@ body {
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
+  color: #32a852;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: "Piazolla", sans-serif;
 }
@@ -72,7 +72,7 @@ body {
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
-  color: darkgoldenrod;
+  color: #1d353d;
   text-decoration: overline;
   text-transform: lowercase;
   font-family: "Ceviche One", sans-serif;
@@ -80,8 +80,8 @@ body {
 
 .whyYLetter {
   font-size: 60px;
-  font-weight: normal;
-  color: coral;
+  font-weight: 400;
+  color: #cc6158;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Raleway Dots", sans-serif;
@@ -91,8 +91,8 @@ body {
 
 .didDLetter {
   font-size: 40px;
-  font-weight: bolder;
-  color: purple;
+  font-weight: bold;
+  color: rgb(119, 28, 119);
   text-decoration: brown wavy underline;
   text-transform: uppercase;
   font-family: "Raleway Dots", sans-serif;
@@ -100,7 +100,7 @@ body {
 
 .didILetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: black;
   text-decoration: white wavy underline;
   text-transform: lowercase;
@@ -109,8 +109,8 @@ body {
 
 .didDTwoLetter {
   font-size: 30px;
-  font-weight: lighter;
-  color: violet;
+  font-weight: 400;
+  color: rgb(153, 255, 153);
   text-decoration: blue wavy underline;
   text-transform: uppercase;
   font-family: "Courier New", Courier, monospace;
@@ -129,16 +129,16 @@ body {
 
 .theHLetter {
   font-size: 50px;
-  font-weight: lighter;
+  font-weight: normal;
   color: green;
-  text-decoration: underline pink;
+  text-decoration: underline rgb(252, 194, 204);
   text-transform: lowercase;
   font-family: "Courier New", Courier, monospace;
 }
 
 .theELetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: orange;
   text-decoration: underline overline orange;
   text-transform: uppercase;
@@ -149,7 +149,7 @@ body {
 
 .frontendFLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: red;
   text-decoration: underline overline dotted;
   text-transform: uppercase;
@@ -158,7 +158,7 @@ body {
 
 .frontendRLetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 700;
   color: yellow;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -167,7 +167,7 @@ body {
 
 .frontendOLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: orange;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -176,7 +176,7 @@ body {
 
 .frontendNLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: 700;
   color: red;
   text-decoration: wavy underline;
   text-transform: lowercase;
@@ -185,8 +185,8 @@ body {
 
 .frontendTLetter {
   font-size: 50px;
-  font-weight: bolder;
-  color: red;
+  font-weight: 700;
+  color: #fc3503;
   text-decoration: underline dotted;
   text-transform: uppercase;
   font-family: "Bungee", sans-serif;
@@ -194,18 +194,18 @@ body {
 
 .frontendELetter {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 700;
   color: black;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: lowercase;
   font-family: "Playwrite NL Guides", cursive;
 }
 
 .frontendNTwoLetter {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 400;
   color: peru;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: "Tilt Prism", sans-serif;
 }
@@ -214,7 +214,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   color: purple;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: "Sarina", cursive;
 }
@@ -231,23 +231,23 @@ body {
 }
 .developerELetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 700;
   color: pink;
-  text-decoration: none;
+  text-decoration: overline;
   text-transform: lowercase;
   font-family: "Sarina", cursive;
 }
 .developerVLetter {
   font-size: 90px;
   font-weight: bold;
-  color: violet;
+  color: rgb(243, 127, 243);
   text-decoration: dotted underline;
   text-transform: uppercase;
   font-family: "Sarina", cursive;
 }
 .developerETwoLetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 400;
   color: blue;
   text-decoration: dotted underline;
   text-transform: lowercase;
@@ -255,39 +255,39 @@ body {
 }
 .developerLLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: lawngreen;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
 }
 .developerOLetter {
   font-size: 90px;
   font-weight: bold;
-  color: olive;
+  color: #d5de92;
   text-decoration: dotted underline;
   text-transform: uppercase;
   font-family: "Bitcount Grid Double", system-ui;
 }
 .developerPLetter {
   font-size: 40px;
-  font-weight: bolder;
-  color: plum;
-  text-decoration: none;
+  font-weight: 700;
+  color: #b792de;
+  text-decoration: overline;
   text-transform: lowercase;
   font-family: "Metamorphous", serif;
 }
 .developerEThreeLetter {
   font-size: 20px;
-  font-weight: bolder;
-  color: indigo;
+  font-weight: 700;
+  color: #39165e;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
 }
 .developerRLetter {
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: 400;
   color: yellow;
   text-decoration: underline overline black;
   text-transform: uppercase;
@@ -298,23 +298,23 @@ body {
 
 .takeTLetter {
   font-size: 70px;
-  font-weight: bolder;
-  color: purple;
+  font-weight: bold;
+  color: rgb(121, 2, 121);
   text-decoration: underline overline black;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
 }
 .takeALetter {
   font-size: 70px;
-  font-weight: bolder;
-  color: brown;
+  font-weight: bold;
+  color: rgb(169, 27, 27);
   text-decoration: underline overline black;
   text-transform: uppercase;
   font-family: "Metamorphous", serif;
 }
 .takeKLetter {
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: bold;
   color: yellow;
   text-decoration: underline overline black;
   text-transform: uppercase;
@@ -323,8 +323,8 @@ body {
 .takeELetter {
   font-size: 20px;
   font-weight: bolder;
-  color: crimson;
-  text-decoration: none;
+  color: rgb(220, 20, 60);
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: "Metamorphous", serif;
 }
@@ -333,7 +333,7 @@ body {
 
 .upULetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: 700;
   color: red;
   text-decoration: underline overline dotted red;
   text-transform: uppercase;
@@ -341,9 +341,9 @@ body {
 }
 .upPLetter {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 400;
   color: darkcyan;
-  text-decoration: none;
+  text-decoration: line-through;
   text-transform: lowercase;
   font-family: "Courier New", Courier, monospace;
 }
@@ -352,8 +352,8 @@ body {
 
 .gardeningGLetter {
   font-size: 90px;
-  font-weight: bolder;
-  color: greenyellow;
+  font-weight: 700;
+  color: rgb(162, 246, 36);
   text-decoration: underline darkgreen;
   text-transform: uppercase;
   font-family: "Gamja Flower", sans-serif;
@@ -385,7 +385,7 @@ body {
 .gardeningELetter {
   font-size: 90px;
   font-weight: bold;
-  color: darkcyan;
+  color: rgb(10, 124, 124);
   text-decoration: underline blue;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
@@ -401,7 +401,7 @@ body {
 .gardeningILetter {
   font-size: 70px;
   font-weight: bold;
-  color: darkcyan;
+  color: rgb(0, 139, 139);
   text-decoration: dotted underline pink;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
@@ -427,7 +427,7 @@ body {
 
 .becauseBLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: blue;
   text-decoration: underline;
   text-transform: uppercase;
@@ -435,15 +435,15 @@ body {
 }
 .becauseELetter {
   font-size: 30px;
-  font-weight: lighter;
-  color: hotpink;
+  font-weight: 700;
+  color: #ca7dd4;
   text-decoration: none;
   text-transform: lowercase;
   font-family: "Courier New", Courier, monospace;
 }
 .becauseCLetter {
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: bold;
   color: red;
   text-decoration: dotted underline;
   text-transform: uppercase;
@@ -451,15 +451,15 @@ body {
 }
 .becauseALetter {
   font-size: 30px;
-  font-weight: lighter;
-  color: cadetblue;
+  font-weight: 400;
+  color: rgb(95, 158, 160);
   text-decoration: underline dotted;
   text-transform: uppercase;
   font-family: "Tilt Prism", sans-serif;
 }
 .becauseULetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: yellow;
   text-decoration: dotted underline;
   text-transform: uppercase;
@@ -475,8 +475,8 @@ body {
 }
 .becauseETwoLetter {
   font-size: 90px;
-  font-weight: lighter;
-  color: indianred;
+  font-weight: 400;
+  color: rgb(205, 92, 92);
   text-decoration: wavy underline;
   text-transform: uppercase;
   font-family: "Tilt Prism", sans-serif;
@@ -486,7 +486,7 @@ body {
 
 .theyTLetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 400;
   color: darkcyan;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -494,7 +494,7 @@ body {
 }
 .theyHLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: coral;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -502,7 +502,7 @@ body {
 }
 .theyELetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 700;
   color: firebrick;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -510,7 +510,7 @@ body {
 }
 .theyYLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 700;
   color: hotpink;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -529,15 +529,15 @@ body {
 }
 .wantedALetter {
   font-size: 30px;
-  font-weight: lighter;
-  color: aqua;
+  font-weight: 400;
+  color: rgb(9, 247, 247);
   text-decoration: wavy underline;
   text-transform: uppercase;
   font-family: family Jazz LET, fantasy;
 }
 .wantedNLetter {
   font-size: 90px;
-  font-weight: bolder;
+  font-weight: bold;
   color: navy;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -545,7 +545,7 @@ body {
 }
 .wantedTLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: tomato;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -554,7 +554,7 @@ body {
 
 .wantedELetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: normal;
   color: teal;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -562,7 +562,7 @@ body {
 }
 .wantedDLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: darkred;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -573,16 +573,16 @@ body {
 
 .toTLetter {
   font-size: 90px;
-  font-weight: lighter;
-  color: teal;
+  font-weight: 400;
+  color: rgb(0, 128, 128);
   text-decoration: wavy underline;
   text-transform: uppercase;
   font-family: family Jazz LET, fantasy;
 }
 .toOLetter {
   font-size: 30px;
-  font-weight: lighter;
-  color: orange;
+  font-weight: 400;
+  color: rgb(182, 121, 9);
   text-decoration: wavy underline;
   text-transform: lowercase;
   font-family: family Jazz LET, fantasy;
@@ -590,15 +590,22 @@ body {
 
 /* IMPROVE word */
 
-.improveILetter {
+.improveILetter,
+.improveMLetter,
+.improvePLetter,
+.improveRLetter,
+.improveOLetter,
+.improveVLetter,
+.improveELetter {
   font-size: 90px;
-  font-weight: bolder;
-  color: indigo;
-  text-decoration: dotted underline;
+  font-weight: 700;
+  color: #680808;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: "Bitcount Prop Double Ink", system-ui;
 }
-.improveMLetter {
+
+/* .improveMLetter {
   font-size: 90px;
   font-weight: lighter;
   color: magenta;
@@ -652,14 +659,14 @@ body {
 .theirTLetter {
   font-size: 90px;
   font-weight: bold;
-  color: teal;
+  color: #680808;
   text-decoration: wavy underline;
   text-transform: uppercase;
   font-family: "Gamja Flower", sans-serif;
 }
 .theirHLetter {
   font-size: 30px;
-  font-weight: lighter;
+  font-weight: 400;
   color: hotpink;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -667,7 +674,7 @@ body {
 }
 .theirELetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: plum;
   text-decoration: wavy underline;
   text-transform: uppercase;
@@ -675,7 +682,7 @@ body {
 }
 .theirILetter {
   font-size: 50px;
-  font-weight: lighter;
+  font-weight: 400;
   color: indianred;
   text-decoration: underline;
   text-transform: lowercase;
@@ -683,18 +690,19 @@ body {
 }
 .theirRLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: 400;
   color: red;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Gamja Flower", sans-serif;
 }
+*/
 
 /* ROOT word */
 
 .rootRLetter {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: normal;
   color: black;
   text-decoration: none;
   text-transform: lowercase;
@@ -702,7 +710,7 @@ body {
 }
 .rootOLetter {
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: bold;
   color: olivedrab;
   text-decoration: underline;
   text-transform: uppercase;
@@ -710,7 +718,7 @@ body {
 }
 .rootOTwoLetter {
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: bold;
   color: orangered;
   text-decoration: underline;
   text-transform: uppercase;
@@ -718,7 +726,7 @@ body {
 }
 .rootTLetter {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: normal;
   color: black;
   text-decoration: none;
   text-transform: lowercase;
@@ -728,9 +736,9 @@ body {
 /* SKILLS word */
 
 .skillsSLetter {
-font-size: 20px;
-  font-weight: lighter;
-  color: snow;
+  font-size: 20px;
+  font-weight: normal;
+  color: #dddce0;
   text-decoration: none;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
@@ -738,15 +746,15 @@ font-size: 20px;
 
 .skillsKLetter {
   font-size: 100px;
-  font-weight: bolder;
-  color: red;
+  font-weight: bold;
+  color: #fc3503;
   text-decoration: dotted underline;
   text-transform: uppercase;
   font-family: "Courier New", Courier, monospace;
 }
 .skillsILetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: normal;
   color: black;
   text-decoration: none;
   text-transform: lowercase;
@@ -754,7 +762,7 @@ font-size: 20px;
 }
 .skillsLLetter {
   font-size: 90px;
-  font-weight: lighter;
+  font-weight: normal;
   color: black;
   text-decoration: none;
   text-transform: lowercase;
@@ -762,16 +770,16 @@ font-size: 20px;
 }
 .skillsLTwoLetter {
   font-size: 90px;
-  font-weight: lighter;
-  color: lawngreen;
+  font-weight: 400;
+  color: rgb(124, 252, 0);
   text-decoration: none;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
 }
 .skillsSTwoLetter {
   font-size: 90px;
-  font-weight: lighter;
-  color: seagreen;
+  font-weight: 400;
+  color: rgb(46, 139, 87);
   text-decoration: dotted underline;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
@@ -781,25 +789,26 @@ font-size: 20px;
 
 .hyphen {
   font-size: 60px;
-  font-weight: bolder;
-  color: black;
+  font-weight: bold;
+  color: rgb(129, 167, 55);
   text-decoration: overline underline;
   text-transform: lowercase;
   font-family: "Gamja Flower", sans-serif;
 }
-.exclamation-mark {
+.exclamation-mark,
+.question-mark {
   font-size: 90px;
-  font-weight: lighter;
-  color: red;
+  font-weight: 400;
+  color: rgba(240, 12, 12, 0.537);
   text-decoration: none;
   text-transform: uppercase;
   font-family: family Jazz LET, fantasy;
 }
-.question-mark {
+/* .question-mark {
   font-size: 90px;
   font-weight: bolder;
   color: yellow;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Piazolla", sans-serif;
-}
+} */
